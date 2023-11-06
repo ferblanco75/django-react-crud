@@ -36,6 +36,7 @@ oauthlib==3.1.0
 olefile==0.46
 onboard==1.4.1
 packaging==23.2
+pbr==5.11.1
 pexpect==4.6.0
 Pillow==7.0.0
 platformdirs==3.11.0
@@ -60,6 +61,7 @@ simplejson==3.16.0
 six==1.14.0
 sqlparse==0.4.4
 systemd-python==234
+testresources==2.0.1
 typing-extensions==4.8.0
 ubuntu-advantage-tools==8001
 ubuntu-drivers-common==0.0.0
