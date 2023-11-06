@@ -77,11 +77,17 @@ WSGI_APPLICATION = 'django_crud_api.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+# mysql -hcontainers-us-west-82.railway.app -uroot -p******** --port 7414 --protocol=TCP railway
+
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': '22dSkHzhKwDD1Xtnj31B',
+        'HOST': 'containers-us-west-82.railway.app',
+        'PORT': '7414',
     }
 }
 
