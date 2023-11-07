@@ -1,11 +1,15 @@
+apturl==0.5.2
 asgiref==3.7.2
 backports.zoneinfo==0.2.1
 blinker==1.4
+catfish==1.4.13
 certifi==2019.11.28
 chardet==3.0.4
 Click==7.0
 colorama==0.4.3
+command-not-found==0.3
 cryptography==2.8
+cupshelpers==1.0
 dbus-python==1.2.16
 defer==1.0.6
 distlib==0.3.7
@@ -58,7 +62,7 @@ six==1.14.0
 sqlparse==0.4.4
 systemd-python==234
 testresources==2.0.1
-typing-extensions==4.8.0
+typing_extensions==4.8.0
 ubuntu-advantage-tools==8001
 ubuntu-drivers-common==0.0.0
 ufw==0.36
